@@ -1,0 +1,19 @@
+.figma_image{
+    display: flex;
+    justify-content: center;
+}
+.figma_image img{
+    width: 660px;
+}
+
+.figma_text h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.figma_text p{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
