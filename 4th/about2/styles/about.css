@@ -1,0 +1,57 @@
+
+.container{
+    margin-top: 150px;
+    line-height: 1.8;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--font_av);
+    margin-bottom: 70px;
+}
+
+.game_section__title{
+    display: flex;
+    justify-content: center;
+
+}
+
+.game_section__game_list{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.game_section__games{
+    text-align: center;
+    list-style: none;
+    font-size: var(--font_av);
+    font-weight: 400;
+}
+
+.games__img{
+    width: 220px;
+    height: 320px;
+    margin-right: 100px;
+}
+
+.game_info{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 30px;
+    border: black 4px solid;
+    border-radius: 15px 50px;
+}
+
+.game_desc{
+    width: 800px;
+}

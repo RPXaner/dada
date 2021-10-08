@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.tea_block{
+    border: solid rgba(232, 232, 232, 1);
+    padding: 20px;
+    margin-right: 110px;
+
+}
+
+.tea_block img{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tea_block button{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 50px;
+    border-radius: 10%;
+    color: white;
+    border: black solid 1px;
+}
+
+.tea_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tea_button button:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
