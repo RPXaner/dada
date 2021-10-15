@@ -1,0 +1,21 @@
+.block{
+    width: 350px;
+    height: 500px;
+    background: url(/img/titanic.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.blocks{
+    display: flex;
+    gap: 20px;
+    width: 1500px;
+    flex-wrap: wrap;
+
+}

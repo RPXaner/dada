@@ -1,0 +1,140 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reg_block{
+    width: 350px;
+    height: 240px;
+    background: url(../img/Rectangle\ 6.png);
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+.reg_block button{
+    width: 100%;
+    height: 50px;
+    background: #fa7e0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    border: none;
+
+}
+
+.reg_blocks{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.big_block{
+    width: 350px;
+    min-height: 540px;
+    background: url(../img/Rectangle\ 9.png);
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+.big_block button{
+    width: 100%;
+    height: 50px;
+    background: #fa7e0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    border: none;
+}
+
+.small_blocks{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 65px;
+
+}
+.small_block{
+    width: 180px;
+    height: 120px;
+    background: url(/img/tom.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.small_block button{
+    width: 100%;
+    height: 20px;
+    background: #fa7e0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    border: none;
+}
+.allmovies{
+    display: flex;
+    justify-content: center;
+}
+.allmovies button{
+    height: 50px;
+    width: 350px;
+    background: #fa7e0c;
+    color: white;
+    border: none;
+    margin-top:70px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.schedule{
+    width: 250px;
+    height: 330px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.schedule button{
+    width: 100%;
+    height: 50px;
+    background: #fa7e0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    border: none;
+}
+
+.schedule_elements{
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.schedule_element{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.schedule_title{
+    font-size: 18px;
+    margin: 20px;
+    font-weight: bold;
+}
