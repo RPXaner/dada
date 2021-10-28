@@ -1,0 +1,265 @@
+body{
+    font-family: sans-serif, 'Montserrat';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.nav{
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_element:not(:last-child){
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_news{
+    display: flex;
+    gap: 50px;
+}
+.top_news_block{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-image: url("../img/squid.jpg");
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_news_name{
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    color: white;
+}
+
+.top_news_descr{
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+    color: white;
+}
+
+.title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.cov_news{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.cov_newsblock_text{
+    background: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cov_newsblock_title{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.cov_newsblock_descr div{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    margin-left: 40px;
+}
+
+.cov_newsblock_descr{
+    width: 100%;
+}
+
+.cov_newsblock_text button{
+    margin-top: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+
+}
+
+.footer_title{
+    text-align: start;
+}
+footer{
+    margin-top: 70px;
+    background: black;
+    color: white;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foooter_news_blocks{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.footer_news_block img{
+    height: 80px;
+    width: 200px;
+}
+.footer_news_block{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+    .nav{
+        height: 50px;
+        width: 100%;
+        position: static;
+        z-index: 1;
+        top: 1;
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 25px;
+        background: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    .nav_element:not(:last-child){
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
+
+    .top_news{
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+    }
+    .top_news_block{
+        position: relative;
+        width: 150px;
+        height: 120px;
+        background-image: url("../img/squid.jpg");
+        background-size: cover;
+        position: relative;
+        border-radius: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .top_news_name{
+        position: absolute;
+        bottom: 40px;
+        right: 10px;
+        color: white;
+    }
+    
+    .top_news_descr{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: white;
+    }
+
+    
+.cov_news{
+    flex-direction: column;
+    align-items: center;
+    }
+    .cov_newsblock_text{
+        background: black;
+        color: white;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cov_newsblock_title{
+        display: flex;
+        align-items: flex-start;
+        font-size: 26px;
+        font-weight: 700;
+        width: 100%;
+        margin-left: 40px;
+    }
+    .cov_newsblock_text button{
+        margin-top: 20px;
+        background: transparent;
+        outline: none;
+        border: none;
+        background-color: white;
+        border-radius: 20px;
+        height: 30px;
+        width: 200px;
+    
+    }
+    footer{
+        margin-top: 70px;
+        background: black;
+        color: white;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_news_block img{
+        height: 80px;
+        width: 90px;
+    }
+    .foooter_news_blocks{
+        justify-content: center;
+    }
+  }
