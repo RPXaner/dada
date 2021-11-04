@@ -585,21 +585,21 @@ footer{
     
     .main_page{
         display: flex;
-        justify-content: safe;
+        flex-direction: column;
+        align-items: center;
     }
     
     .frame{
-        display: none;
-        width: 300px;
-        height: 450px;
+        width: 100px;
+        height: 150px;
+        margin-top: 30px;
         border-radius: 50px 50px 5px 5px;
         background: linear-gradient(158.19deg, #FFB648 6.92%, #FF7713 93.26%);
     }
     
     .frame img{
-        display: none;
-        width: 300px;
-        height: 450px;
+        width: 100px;
+        height: 150px;
     }
     
     
