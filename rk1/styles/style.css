@@ -574,7 +574,7 @@ footer{
     
     .left_section_descr{
         margin-top: 50px;
-        font-size: 8px;
+        font-size: 16px;
         line-height: 25px;
         font-weight: 600;
         color: rgba(0, 0, 0, 0.47);
@@ -609,11 +609,11 @@ footer{
     .content_btn{
         margin-right: 30px;
         border-radius: 20px;
-        width: 75px;
-        height: 25px;
+        width: 100px;
+        height: 30px;
         border: none;
         color: white;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 700;
         background: linear-gradient(90deg, #FFB648 0%, #FF7713 100%);
         box-shadow: 0px 24px 34px -9px rgba(0, 0, 0, 0.25);
@@ -622,8 +622,9 @@ footer{
     .content_nav_section{
         margin-top: 30px;
         display: flex;
+        justify-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 16px;
     }
     .content_nav_section a{
         text-decoration: none;
@@ -673,7 +674,7 @@ footer{
     }
     .chairs_title h1{
         height: 40px;
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .top{
@@ -690,15 +691,16 @@ footer{
     }
     .chairs_blocks_block{
         position: relative;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .chairs_blocks_block:not(:last-child){
         margin-right: 0px;
+        margin-bottom: 20px;
     }
     
     .chairs_blocks_block_frame{
-        height: 200px;
-        width: 100px;
+        height: 300px;
+        width: 200px;
         background: #FFF7EA;
         border-radius: 100px 100px 0px 0px;
         display: flex;
@@ -706,16 +708,16 @@ footer{
         align-items: center;
     }
     .chairs_blocks_block_img{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
     .chairs_blocks_block_img_frame{
         background-color: #FFF0CE;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80px;
-        width: 80px;
+        height: 180px;
+        width: 180px;
         border-radius: 100px 100px 0px 0px;
         margin-top: 10px;
     }
@@ -727,12 +729,12 @@ footer{
     .chairs_blocks_block_title{
         color: #54302A;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 16px;
     }
     .chairs_blocks_block_material{
         margin-top: 10px;
         color: #D1AD9B;
-        font-size: 10px;
+        font-size: 14px;
     }
     
     .chairs_blocks_block_frame button{
@@ -795,6 +797,7 @@ footer{
         font-family: 'Ranille';
         font-size: 18px;
         width: 100%;
+        height: 70px;
     }
     
     .hat_section_right_title h1:not(:last-child){
@@ -804,7 +807,7 @@ footer{
     
     .hat_section_right_descr{
         margin-top: 45px;
-        font-size: 10px;
+        font-size: 16px;
         width: 100%;
         font-weight: 600;
         color: #E7D3C7;
@@ -846,12 +849,12 @@ footer{
     
     .hat_section_right_blocks_block_frame_title{
         font-family: 'Ranille';
-        font-size: 14px;
+        font-size: 18px;
         margin-bottom: 15px;
     }
     
     .hat_section_right_blocks_block_frame_descr{
-        font-size: 10px;
+        font-size: 14px;
         
     }
     
@@ -883,8 +886,9 @@ footer{
         
     }
     .earphone_section_left_descr{
-        font-size: 9px;
-        width: 150px;
+        font-size: 14px;
+        width: 300px;
+        line-height: 26px;
         font-weight: 600;
         color: #E7D3C7;
     }
@@ -971,7 +975,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 600;
         font-family: 'Ranille';
         padding: 30px 0 30px 0;
@@ -983,9 +987,9 @@ footer{
     
     .poster_descr{
         color: #DBBCAC;
-        font-size: 8px;
+        font-size: 16px;
         margin-bottom: 60px;
-        width: 150px;
+        width: 300px;
     }
     
     .poster button{
