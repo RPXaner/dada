@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    height: 50px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50PX;
+    height: 50px;
+    background: white;
+}
+
+nav ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    align-items: center;
+}
+.nav_element{
+    padding-right: 20px;
+}
+.nav_element:not(:last-child){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    height: 30px;
+    border-right: white 1px solid;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    background-image: url('./img/download.jpg');
+}
+
+
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 900px;
+    align-items: center;
+}
+
+.right{
+    background-image: url('./img/kohi.png');
+    width: 620px;
+    height: 520px;
+    border-radius: 30px;
+}
+
+.left{
+    width: 300px;
+}
+
+.left_title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.left_descr{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.left_button{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}  
+.left_button:hover{
+    
+    background-color: orange;
+    cursor: pointer;
+}  
+
+.features{
+    width: 100%;
+}
+
+.features_title{
+    font-size: 36PX;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.features_blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.features_block:not(:last-child){
+    margin-right: 100px;
+}
+.features_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.features_block_text{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.features_block img{
+    height: 50px;
+    width: 50px;
+    background: white;
+}
+
+.team{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.team_title{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.team_blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_blocks_block{
+    padding: 10px;
+    color: white;
+    background: black;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.team_profile{
+    width: 300px;
+    height: 250px;
+    background: white;
+    border-radius: 30px;
+}
+
+.team_name{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.team_place{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+
+    margin-top: 70px;
+}
+
+.footer_content{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.projects{
+    border-right: 1px solid white;
+    padding-right: 100px;
+}
+
+.contacts{
+    border-right: 1px solid white;
+    padding-right: 100px;
+}
+
+.projects_elements{
+    list-style: none;
+}
+
+.contacts_elements{
+    list-style: none;
+}
+
+
+.social_icons{
+    display: flex;
+}
+.social_icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contacts_title{
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+
+.projects_title{
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+.social_title{
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+
+.contacts_element{
+    margin-top: 20px;    
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.projects_element{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
