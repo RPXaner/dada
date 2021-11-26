@@ -1,0 +1,31 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 100vh;
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+    border: grey 1px solid;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+#display{
+    border: grey 1px solid;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+}
