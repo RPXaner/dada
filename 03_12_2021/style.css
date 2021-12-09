@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    padding: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    text-align: center;
+    background: orange;
+    padding: 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+    color: white;
+    background: black;
+}
+header>div:not(:last-child){
+    margin-right: 30px;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: transparent;
+}
+
+button{
+    border: 2.5px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    color: white;
+    background: transparent;
+    background-color: orange;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
