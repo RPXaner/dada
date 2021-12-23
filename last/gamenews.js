@@ -17,6 +17,7 @@ let comments = [
 function commentStorage(){
     if(localStorage.getItem("comments") === null){
         localStorage.setItem("comments",  JSON.stringify(comments))
+        location.reload(); 
     }
     else{
         return
@@ -36,7 +37,8 @@ button.addEventListener("click", (e) => {
         }
         c_data.push(new_comment)
 
-    localStorage.setItem("comments",  JSON.stringify(c_data))  
+    localStorage.setItem("comments",  JSON.stringify(c_data)) 
+    location.reload();
 })
 function getComments(){
     //localStorage.setItem("comments",  JSON.stringify(comments))

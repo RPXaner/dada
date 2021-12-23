@@ -17,6 +17,7 @@ let comments = [
 function commentStorage(){
     if(localStorage.getItem("comments") === null){
         localStorage.setItem("comments",  JSON.stringify(comments))
+        location.reload(); 
     }
     else{
         return
@@ -26,7 +27,7 @@ let red_com = localStorage.getItem("comments")
 let c_data = JSON.parse(red_com)
 console.log(c_data)
 //localStorage.setItem("comments",  JSON.stringify(comments))
-button.addEventListener("click", (e) => {
+button.addEventListener("click", () => {
     let comment_content = document.querySelector("#comment_box").value
     let user_comm = a_data.user_name
         let new_comment = {
@@ -36,7 +37,7 @@ button.addEventListener("click", (e) => {
         }
         c_data.push(new_comment)
 
-    localStorage.setItem("comments",  JSON.stringify(c_data))  
+    localStorage.setItem("comments",  JSON.stringify(c_data))
 })
 function getComments(){
     //localStorage.setItem("comments",  JSON.stringify(comments))
