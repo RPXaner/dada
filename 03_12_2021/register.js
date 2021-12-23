@@ -1,6 +1,5 @@
 button = document.querySelector("#button")
 button.addEventListener("click", (e) => {
-    e.preventDefault();
     
     let username = document.querySelector("#username").value
     let pwd = document.querySelector("#password").value

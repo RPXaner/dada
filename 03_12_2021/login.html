@@ -12,6 +12,9 @@
 </head>
 <body>
     <header>
+        <div class="news">
+            <a href="news.html">news</a>
+        </div>
         <div class="prof">
             <a href="change.html">profile</a>
         </div>
@@ -20,6 +23,9 @@
         </div>
         <div class="login">
             <a href="login.html">login</a>   
+        </div>
+        <div class="logout">
+            <button class="logout">logout</button>  
         </div>
     </header>
     <div class="container">
@@ -31,12 +37,13 @@
             <label for="password">Password</label> <br>
             <input type="password" name="password" id="password"> <br>
 
-            <button type="submit" id="button">Login</button>
+            <button class="submit" type="submit" id="button">Login</button>
         </form>
     </div>
     <button id="reuse">reuse</button>
 
     
     <script src="login.js"></script>
+    <script src="logout.js"></script>
 </body>
 </html>

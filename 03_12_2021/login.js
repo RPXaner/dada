@@ -1,6 +1,5 @@
 button = document.querySelector("#button")
 button.addEventListener("click", (e) => {
-    e.preventDefault();
     
     let username = document.querySelector("#username").value
     let pwd = document.querySelector("#password").value
@@ -13,6 +12,7 @@ button.addEventListener("click", (e) => {
 
     } else if(username == data.user_name && pwd == data.user_password){
         result.innerHTML = "logged in as " + username
+        localStorage.setItem("active_user", username)
     }else{
         result.innerHTML = "wrong"
     }
